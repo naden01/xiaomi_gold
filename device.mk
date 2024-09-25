@@ -75,11 +75,13 @@ PRODUCT_PACKAGES += \
 
 # Additional Target Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.keymaster@4.1 \
     android.hardware.graphics.common@1.0 \
     libion \
     libxml2 \
 
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.keymaster@4.1.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.graphics.common@1.0.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so \
@@ -99,9 +101,17 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1
+
+# Keystore Hal
+PRODUCT_PACKAGES += \
+    android.system.keystore2
+
 # Drm
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4    
+    android.hardware.drm@1.4
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
