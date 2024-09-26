@@ -190,7 +190,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_DEVICE_VERSION := Redmi Note 13 5g | Nazephyrus
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TW_BATTERY_SYSFS_WAIT_SECONDS := 6
 TW_BACKUP_EXCLUSIONS := /data/fonts
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
