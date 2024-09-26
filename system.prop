@@ -24,3 +24,5 @@ ro.hardware=mt6833
 # Board
 ro.product.device=gold
 ro.build.product=gold
+
+keymaster_ver=4.1
