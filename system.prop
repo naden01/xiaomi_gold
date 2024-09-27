@@ -8,10 +8,10 @@ ro.postinstall.fstab.prefix=/system
 ro.sys.usb.storage.type=mtp
 
 # Misc
-fbe.metadata.wrappedkey=true
+#fbe.metadata.wrappedkey=true
 ro.adb.secure=0
-ro.crypto.volume.filenames_mode=aes-256-cts
-ro.vendor.mtk_tee_gp_support=1
+#ro.crypto.volume.filenames_mode=aes-256-cts
+#ro.vendor.mtk_tee_gp_support=1
 
 # MTK
 ro.vendor.mediatek.platform=MT6833
