@@ -23,3 +23,5 @@ ro.build.product=gold
 
 # Decryption 
 keymaster_ver=4.1
+ro.crypto.fs_crypto=true
+ro.crypto.keystore=true
